@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 0 20px;
+  } 
+  nav a {
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+  }
+ 
+  @supports (-webkit-text-stroke: 1px black){
+  nav a:hover { 
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: white;
+  }
+  }
+.divider{
+  height:2px;
+  width:80vw;
+  background-color:black;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:100vw
+}
+body{
+  background-color: #1e1c1c;
+}
+.wrap{
+  width: 1000px;
+  margin: auto;
+  margin-top: 100px;
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  transition: 0.4s;
+  width: 300px;
+ 
+  text-align: center;
+  font-size: 16px;
+  font-family: sans-serif;
+  float: left;
+  margin: 10px;
+}
+img{
+  width: 200px;
+  max-width: 200px;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Quicksand', sans-serif;
+}
+
+body{
+	height: 100vh;
+	width: 100%;
+  background-image: url(https://wallpaperset.com/w/full/8/7/6/182129.jpg);
+}
+
+.about{
+	color: white;
+	font-size: 40px;
+}
+.add{
+	color: white;
+}
+ .buttonDelete{
+	appearance: none;
+	background-color: rgb(209, 10, 10);
+	border: 1px solid rgba(27, 31, 35, .15);
+	border-radius: 6px;
+	box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+	box-sizing: border-box;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;
+	padding: 6px 16px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.buttonDelete:hover,
+.buttonDelete:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.buttonDelete:active {
+  opacity: .5;
+}
+
+
+
+
+.updatebutton {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.updatebutton:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.updatebutton:hover {
+  background-color: #2c974b;
+}
+
+.updatebutton:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.updatebutton:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.updatebutton:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+h1{
+  color: rgb(247, 245, 245);
+}
+h3{
+  color: rgb(243, 238, 103);
+}
+@import url("https://fonts.googleapis.com/css?family=Roboto:400");
+
+
+* {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+
+*:focus {
+	outline: 0;
+}
+
+
+
+h3 {
+	text-align: center;
+}
+
+
+.container {
+	padding: 12px 24px 24px 24px;
+	margin: 48px 12px;
+	/* background: #E3F2FD; */
+	border-radius: 4px;
+  width: 500px;
+  margin: auto;
+  
+}
+
+
+label {
+	font-size: 0.85em;
+	margin-left: 12px;
+}
+
+
+input[type=text],input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+
+input[type=text]:focus,input[type=email]:focus, textarea:focus {
+	border: 1px solid green;
+}
+
+
+input[type=submit] {
+	background: #64B5F6;
+	margin: 0 auto;
+	outline: 0;
+	color: white;
+	border: 0;
+	padding: 12px 24px;
+	border-radius: 4px;
+	transition: all ease-in-out 0.1s;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+
+input[type=submit]:focus {
+	background: #A5D6A7;
+	color: whitesmoke;
+}
+
+
+input[type=submit]:hover {
+	background: #2196F3;
+}
+
+
+label{
+  color: gold;
+}
+.addNew{
+  color: gold;
+}
+.submitButton {
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.submitButton:hover,
+.submitButton:focus {
+  background-color: #07c;
+}
+
+.submitButton:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.submitButton:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+  .buttonTeam{
+    background-color: white;
+   border: 0;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 79.8px;
+}
+.buttonTeam:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.buttonTeam:focus-visible {
+  box-shadow: none;
+} 
+.updateInput{
+  width: 100%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition:.3s ;
+}
+.updateInput:focus{
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+
